@@ -1,8 +1,4 @@
-package src;
-
-
-
-
+package semana1;
 
 public class App {
 
