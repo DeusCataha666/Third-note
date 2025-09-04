@@ -25,7 +25,9 @@ public class Product {
         this.amount = scanner.nextInt();
         if (this.quantity > this.amount) {
             this.quantity -= this.amount;
+            this.price *= this.amount;
             System.out.println("vendido:" + amount + " | nuevo stock: " + this.quantity);
+            System.out.println("total vendido: " + "$" +this.price);
         } else {
             System.out.println("cantidad insuficiente, solo hay: " + this.quantity + " en stock.");
         }
