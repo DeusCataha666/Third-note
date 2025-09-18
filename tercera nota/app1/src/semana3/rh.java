@@ -36,4 +36,10 @@ public class rh {
             System.out.println("Salary must be positive.");
         }
     }
+
+    public void displayInfo() {
+        System.out.println("Name: " + name);
+        System.out.println("Salary: " + salary);
+        System.out.println("Role: " + role);
+    }
 }
