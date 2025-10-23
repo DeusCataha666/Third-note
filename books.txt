@@ -1,0 +1,3 @@
+Don Quijote,Miguel de Cervantes,15.99
+Cien años de soledad,Gabriel García Márquez,12.99
+El Principito,Antoine de Saint-Exupéry,8.99
